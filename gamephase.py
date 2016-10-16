@@ -156,7 +156,7 @@ class ChasePhase(GamePhase):
                 zombie.status = Zombie.ST_DONE
 
         if self.fellInHole(self.fam.getPosition()):
-            raise Exception ("You were a spoon")
+            raise Exception ("You were a mega spoon")
 
 
         if userInput.keys[key.P]:

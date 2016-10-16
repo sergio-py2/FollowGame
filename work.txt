@@ -1,0 +1,70 @@
+Integrate into Levi's code:
+
+	- proper (multi-)collision handling
+	- lurching zombie motion
+
+
+New Stuff:
+	
+	- Level
+		- define Interface
+		- use it in ChasePhase
+		
+		- convertPctToAbsolute()
+		
+	- PreChasePhase -> ChasePhase -> PostChase Phase
+		- pass list of levels
+		
+	- zombie-to-zombie collision detection + handling
+	
+	- over-all element layout - healthbar + clock + playing field
+	
+	- briar patches and oil slicks
+	
+	
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+First Pass:
+
+Hole detection
+	X - zombie
+	X - runner
+	
+Walls
+	X - draw
+	X - detect
+	X - handle
+	
+Zombie Damage
+	X - Detection
+	- Score
+	
+Motion
+	X - Zombie lurch
+	X - Runner ?
+	
+Sound
+	- pyglet 1.2 required?
+	- when?
+	
+Game Play
+	- Stages: zombie count & speed, field config
+	- Intro?
+	- Death effects
+	- Score board
+	
+
+General links:
+http://aodj.ghost.io/isolation-in-practice-part-2/
+http://www.thebrokendesk.com/post/using-wx-python-in-a-virtual-environment/
+https://groups.google.com/forum/#!topic/wxpython-users/TccOCwAB0zY
+https://www.metachris.com/2015/11/create-standalone-mac-os-x-applications-with-python-and-py2app/
+https://pythonhosted.org/py2app/
+https://medium.com/@acidflask/this-guys-arrogance-takes-your-breath-away-5b903624ca5f#.ilsrwfdcd
+
+	
